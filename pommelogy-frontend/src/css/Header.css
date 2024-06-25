@@ -1,0 +1,96 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 2.5rem;
+  /* background: rgba(0, 0, 0, 0.5); */
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.header nav ul li {
+  margin-right: 1rem;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.header nav ul li a:hover {
+  text-decoration: underline;
+  color: #ddd;
+  /* margin-top: 2px; */
+}
+
+.header nav ul li .active {
+  font-weight: bold; /* Make the active link bold */
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+}
+
+.header-icons input {
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.header-icons i {
+  color: white;
+  margin-right: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.header-icons i:hover {
+  color: #ddd;
+}
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .header nav ul li {
+    margin: 5px 0;
+  }
+
+  .header-icons {
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+
+  .header-icons input {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+
+  .header-icons input:focus {
+    width: 100%;
+  }
+}

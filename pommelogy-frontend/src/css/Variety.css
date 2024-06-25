@@ -1,0 +1,46 @@
+.variety-container {
+  text-align: center;
+}
+
+.banner {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.apple-cards-section {
+  padding: 2rem 0;
+  height: fit-content;
+}
+
+.apple-card {
+  margin-bottom: 2rem;
+  height: 300px;
+}
+
+.apple-image {
+  height: 250px;
+  object-fit: cover;
+}
+
+.most-viewed-section {
+  padding: 2rem 0;
+}
+
+.carousel .legend {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: #fff;
+}
+
+.most-viewed-apples-section {
+  width: 100%;
+  height: 50%;
+}

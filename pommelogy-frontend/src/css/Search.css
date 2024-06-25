@@ -1,0 +1,145 @@
+.variety-container {
+  width: 100%;
+  /* max-width: 1200px; */
+  /* margin: 0 auto; */
+}
+
+.header1 {
+  background-image: url(../assets/background3.png);
+  margin-top: -1rem;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.header1 header {
+  margin-top: 1rem;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 1rem;
+}
+
+.search-bar {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.filter-button {
+  background: none;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.variety-table {
+  max-width: 90%;
+  margin: 0 auto;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.variety-table th,
+.variety-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.variety-table th {
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.filter-popup {
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.filter-popup h3 {
+  margin-top: 0;
+}
+
+.filter-popup label {
+  display: block;
+  margin: 10px 0;
+}
+
+.filter-popup button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.export-buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.export-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+}
+
+/* src/Variety.css */
+.variety-container {
+  /* padding: 20px; */
+}
+
+.variety-heading {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.variety-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.variety-table th,
+.variety-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.variety-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.export-buttons {
+  margin-top: 20px;
+}
